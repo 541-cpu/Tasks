@@ -16,24 +16,21 @@
 
 6. 将本地的分支与远程分支统一`git branch -M main` Git分支为master，远程分支为main，不统一分支会报`src refspec main does not match any`错误
 
-7. 将分支推送到远程仓库`git push -u 仓库别名 分支名`==push的正确参数是远程别名+分支名，而不是仓库地址![屏幕截图 2026-03-28 201112](C:\Users\士多啤梨\Pictures\Screenshots\屏幕截图 2026-03-28 201112.png)==
-
-   ![屏幕截图 2026-03-28 200844](C:\Users\士多啤梨\Pictures\Screenshots\屏幕截图 2026-03-28 200844.png)
-
-![屏幕截图 2026-03-28 201050](C:\Users\士多啤梨\Pictures\Screenshots\屏幕截图 2026-03-28 201050.png)
-
-推送成功后会跳出登录页面，登录了账号后即可在GitHub对应仓库找到本地文件
+7. 将分支推送到远程仓库`git push -u 仓库别名 分支名`==push的正确参数是远程别名+分支名，而不是仓库地址
+推送成功后会跳出登录页面，登录了账号后即可在GitHub对应仓库找到本地文件![jietu](https://free-img.400040.xyz/4/2026/03/29/69c89ab51624f.png)
+![jietu2](https://free-img.400040.xyz/4/2026/03/29/69c89ab50fc5c.png)
+![jietu3](https://free-img.400040.xyz/4/2026/03/29/69c89ab51678e.png)
 
 ## 练习中的问题
 
-1. 我的Git Bash和我的Hello.md不在一个文件中，所以刚开始打开Git Bash输入`git init`报错![屏幕截图 2026-03-28 230242](C:\Users\士多啤梨\Pictures\Screenshots\屏幕截图 2026-03-28 230242.png)
+1. 我的Git Bash和我的Hello.md不在一个文件中，所以刚开始打开Git Bash输入`git init`报错![jietu4](https://free-img.400040.xyz/4/2026/03/29/69c89ab518f88.png)
 
 2. 第一次打开终端时打开的是Windows的终端，导致Git中`ls`不能运行，打开Git Bash后要先定位到推送文件位置
 
-3. 在推送到远程仓库时报错![屏幕截图 2026-03-28 230737](C:\Users\士多啤梨\Pictures\Screenshots\屏幕截图 2026-03-28 230737.png)
+3. 在推送到远程仓库时报错![jitu5](https://free-img.400040.xyz/4/2026/03/29/69c89ab5160ff.png)
 
    原因是远程仓库地址错误，误用了仓库的网页浏览地址而不是Git克隆地址（直接定位到了仓库具体文件夹的地址）；并且本地分支和远程分支名未统一。
 
-4. 推送语法错误，把远程仓库地址写在了分支位置![屏幕截图 2026-03-28 231349](C:\Users\士多啤梨\Pictures\Screenshots\屏幕截图 2026-03-28 231349.png)
+4. 推送语法错误，把远程仓库地址写在了分支位置![jietu6](https://free-img.400040.xyz/4/2026/03/29/69c89ab51daab.png)
 
    推送语法为`git remote add 分支名 仓库地址`
