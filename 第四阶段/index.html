@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="daohang.css">
+  <link rel="stylesheet" href="iconfont.css">
+  <link rel="stylesheet" href="introduction.css">
+  <link rel="stylesheet" href="about-us.css">
+  <link rel="stylesheet" href="morequestions.css">
+  <link rel="stylesheet" href="contact.css">
+  <style> 
+    .diyi{
+      width: 100%;
+      height: 1150px;
+      background-image: url("background_Homepage.png");
+      background-size: cover;/*背景图大小*/
+      background-repeat: no-repeat;/*横向平铺*/
+      background-position: center;/*背景图位置*/
+      /*order: 1px solid red; /* 加边框，能看到盒子就说明CSS生效  了 */
+    }
+    .neibu{
+      width: 400px;
+      height: 270px;
+      position: absolute;
+      top: 180px;
+      left: 700px;
+    }
+    .neibu:hover{
+      width:500px;
+      transition: all 0.5s ease; /* 添加过渡效果 */
+      height: 380px;
+    }
+
+    .introduction{
+      width: 100%;
+      height: 200px;
+      text-align: center;
+      font-size: 60px;
+      text-decoration: none;/*去掉下划线失败*/
+    }
+
+    .introduction-img {
+      width: 100%;
+    }
+    
+    .zuoshangjiao{
+      width: 200px;
+      height: 100px;
+    }
+
+  </style>
+
+
+
+
+  </script>
+</head>
+<body>
+<div class="daohang">
+  <ul>
+    <li id="showerweima"><a href="#introduction">Introduction<i class="iconfont icon-xiangxia"></i> </a></li>
+    <li><a href="#about-us">About Us<i class="iconfont icon-ren"></i></a></li>
+    <li><a href="https://www.new-thread.com/" target="_blank"> NewThread<i class="iconfont icon-shouye"></i></a></li>
+    <li><a href="#contact"> Contact Us<i class="iconfont icon-dianhua"></i></a></li>
+    <li><a href="#questions"> Q&A<i class="iconfont icon-xinxi3"></i></a></li>
+  </ul>
+</div>
+
+  <img id="erweima" src="qrcode_1699620268564.jpg" alt="QR code for contact information" style="display: none; position: absolute; top: 50px; left: 50px;">
+  <script src="funtion.js"></script>
+
+  <div class="diyi">
+    <img src="decoration_Geek.png" alt="Decorative geek theme graphic with abstract shapes" class="neibu">
+  </div>
+  
+  <div>
+      <p class="introduction" id="introduction">
+      <a href="#">Introduction<i class="iconfont icon-xiangxia"></i></a>
+      <img src="decoration_Transition.png" class="introduction-img" alt="Transition decoration between sections">
+      </p>
+  </div>
+
+  <div class="introduction-one">
+    <div class="text1">
+      <h2>
+      开发程序猿
+      </h2>
+      <h3 class="h3-introduction" style="color: rgb(30, 118, 219);">
+      "Stay Hungry, Stay Foolish"
+      </h3>
+      <p>前端：前端开发是创建Web或app视觉界面呈现给用户的过程通过HTML，CSS及JavaScript以及衍生出来的各种技术、框架、解决方案，实现互联网产品的用户界面交互。</p>
+      <p>后端：通常也称服务器端开发。不对用户显示,负责处理前端的请求，进行逻辑处理和数据交互。 客户端: 移动应用开发是为了小型、无线计算设备编写软件的流程和程序的集合，例如智能手机或平板电脑。</p>
+   </div>
+        <img src="Geek_Programmer.png" class="introduction-one-span1" alt="Illustration of a programmer working on front end and back end development">
+  </div>
+
+<div class="introduction-tow">
+    <div class="text2">
+      <h2>
+      产品经理
+      </h2>
+      <h3 class="h3-introduction" style="color: rgb(230, 126, 227);">
+      "好的软件的特征是,明明没用过，但总觉得用过似的。"
+      </h3>
+      <p>PM是针对某一项或是某一类的产品进行规划和管理的人员。 PM需要拥有缜密的产品逻辑思维，研究用户心理，负责产品的整个生命周期。 PM参与产品的UI和交互设计，为设计和开发确定产品原型，能够将产品变得有个性,操作变得舒适简单、自由。 PM需要一定的文档能力和沟通能力，能够在团队合作的过程中跟各个角色进行有效沟通。</p>
+   </div>
+        <img src="Geek_PM.png" class="introduction-one-span2" alt="Illustration of a product manager planning user interface and team collaboration">
+  </div>
+
+<div class="introduction-three">
+    <div class="text3">
+      <h2>
+      游戏开发
+      </h2>
+      <h3 class="h3-introduction" style="color: rgb(119, 240, 199);">
+      "TECH OTAKUS SAVE THE WORLD"
+      </h3>
+      <p>对游戏开发的热爱和追求，使我们相聚于此。 涉及计算机图形学的学习，我们使用物理模拟引擎Unity开发我们所追求的世界，一个故事，一个角色，在我们的世界里改变现实，创造新的可能，我们参与，我们改变，我们创造...</p>
+   </div>
+        <img src="Geek_Game.png" class="introduction-one-span3" alt="Illustration of game development and virtual world creation">
+  </div>
+
+  <div class="introduction-four">
+    <div class="text4">
+      <h2>
+      安全
+      </h2>
+      <h3 class="h3-introduction" style="color: rgb(226, 110, 174);">"路漫漫其修远兮，非大毅力者不能"
+      </h3>
+      <p>我们主要学习Web安全和二进制安全。在Web安全中我们将学习和实践Web漏洞挖掘技术，也将探索和讨论Web安全实践的方法。在二进制安全中我们专注于分析和防御与计算机程序、系统相关的威胁，同时实践漏洞分析和修补。耐心和钻研缺一不可。</p>
+   </div>
+        <img src="Geek_security.png" class="introduction-one-span4" alt="Illustration of cybersecurity research and digital protection">
+  </div>
+</div>
+  <div class="about-us" id="about-us"
+   style="position: relative;border: 5px solid #979092; /* 紫色边框，可根据需求调整粗细/样式 */
+  border-radius: 12px; /* 圆角，匹配第二张图的柔和感 */
+  padding: 30px 20px; /* 内边距，避免内容贴边框 */
+  margin: 20px auto; /* 居中对齐 */
+  max-width: 1200px; /* 限制最大宽度，适配大屏 */
+  box-sizing: border-box; /* 边框计入宽高 */
+  position: relative; /* 为装饰元素定位做准备 */
+  width: 90%; /* 响应式宽度，适配不同屏幕 */
+ background-color: rgb(255, 254, 247);
+  ">
+    <h2 class="ab">About Us</h2>
+    <div class="card1">
+      <div class="card" style="border: 5px solid #9f5aaa;">
+        <img src="about_Speech.png" class="speech1" alt="Graphic of weekly technical meeting and team discussion">
+          <p class="speech2">
+        每周我们会举行一次技术例会，用来汇报我们的学习内容，供成员之间交流学习。
+          </p>
+     </div>
+      <div class="card" style="border: 5px solid #9f5aaa;">
+      <img src="about_Diversity.png" class="diversity1" alt="Graphic highlighting team diversity and multiple direction choices">
+      <p class="diversity2">多元化是我们的特色。在这里，你可以拥有多种方向选择，前后端、安全、AI、产品/设计、游戏等。</p>
+      </div>
+      <div class="card" style="border: 5px solid #9f5aaa;">
+      <img src="about_Time.png" class="h30-h-1" alt="Graphic representing dedication of at least thirty weekly hours in the lab">
+      <p class="h30-h-2">耐心、毅力是我们必备的品质，每周我们会至少花30小时在实验室中。以保证技术的精进。</p>
+      </div>
+    </div>
+     <img src="decoration_Butterfly.png" class="hudie" alt="Decorative butterfly accent near about us section">
+     <img src="decoration_Decoration(1)左上角.png" class="zuoshang" style="position:absolute; top: -30px; left:-30px; width:200px;"  height="100px">
+     <img src="decoration_Decoration_右上角毒霸看图.png" class="youshang" style="position:absolute; top:-30px; right:-30px; width:200px;" height="100px;"> 
+     <img src="decoration_Decoration_左下角毒霸看图.png" class="zuoxia" style="position:absolute; bottom:-30px; left:-30px; width:200px;" height="100px;">
+     <img src="decoration_Decoration(1)右下角_毒霸看图.png" class="youxia" style="position:absolute; bottom:-30px; right:-30px; width:200px;" height="100px;">
+  </div>
+  
+
+  
+
+  
+    <div class="contact" id="contact">
+      <h2 class="title" font-size="80px">
+      Contact Us
+       </h2>
+      <p>•热爱计算机，具有geek精神，喜欢DIY，动手能力较强</p>
+      <p>•有编程/算法/硬件基础为佳(有作品可附上)</p>
+      <p>•有足够的空余时间，热爱思考，对事物有自己的见解</p>
+      <p>ps:非新思路统招只有通过发送邮件自我介绍后，收到邮件回执后才会被允许进群,在读学生, 都可邮件到newthread_geek@outlook.com报名加入.(信中需备注个人基本信息以及意向方向,此招新活动为长期招新)</p>
+     <div class="contact-btn" style="display: flex; justify-content: center; gap: 15px;">
+     <button onclick="copyEmail()" style=" background-color: #28a745;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;">
+  QQ-Group</button>
+      <button  style=" background-color: #28a745;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;">
+E-mail</button>
+      <button  style=" background-color: #28a745;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;"><a href="https://www.bilibili.com/video/BV1hq4y1s7VH/?spm_id_from=333.337.search-card.all.click/" target="_blank" style="color: white; text-decoration: none;">
+GitHub</a></button>
+   </div>
+      <img src="decoration_TreeWithSometing.png"  style="position:absolute; object-fit: contain; top:-100px; left:0px; width:160px; height: 400px;">
+     <img src="decoration_Ladybug.png"  style="position:absolute; object-fit: contain; bottom:-20px; left:0px; width:50px; height: 50px;">
+      <img src="decoration_Tree.png"  style="position:absolute; object-fit: contain; bottom:-20px; right:0px; width:100px; height: 100%;" >
+      <img src="decoration_Chameleon.png"style="position:absolute; object-fit: contain; bottom:-100px; right:100px; width:300px; height: 100%;">
+      <img src="decoration_Leaves.png" style="position:absolute; object-fit: contain; top:-120px; left: 160px; width:80px; height: 100%;">
+    </div>
+
+  <div class="questions" id="questions"
+  style=" border: 5px solid #1876e8;
+    border-radius: 12px;
+    width: 90%;
+    max-width: 1200px;
+    margin: 30px auto;
+    box-sizing: border-box;
+    padding: 40px;
+    background-image: url("background_QA.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: transparent; /* 去掉白色底色，避免盖住背景图 */
+    position: relative;"
+  >
+ 
+    <h2 class="more-questions-h2">
+        More Questions
+    </h2>
+
+
+    <div class="more-questions-card">
+        <div class="q-item">
+            <p class="question"><a href="javascript:void(0);" onclick="toggleAnswer(this)">1.什么是Geek(极客)？Geek精神又是什么？</a></p>
+            <p class="answer">拥有好奇之心，改变之力，爱钻研，能折腾。</p>
+        </div>
+
+        <div class="q-item">
+            <p class="question"><a href="javascript:void(0);" onclick="toggleAnswer(this)">2.招新是安排在什么时间？</a></p>
+            <p class="answer">按照惯例，正式招新时间是在9月下旬~10月上旬，不过今年会有一些改动，笔试地 点一般在9号教学楼。 如果想要了解我们，可以加入我们的QQ群，招新具体的安排/变动会在招新群通知。</p>
+        </div>
+
+      
+        <div class="q-item">
+            <p class="question"><a href="javascript:void(0);" onclick="toggleAnswer(this)">3.我们有考核吗？考核流程是怎样的呀？</a></p>
+            <p class="answer">嗯...我们一共有一轮笔试和两轮面试。权衡技术、经验和学习能力，第一轮是一些视野性的题目，淘汰率并不高。第二轮单独面试， 根据你的笔试提出技术相关的问题、兴趣爱好、个人看法。最后一轮群面，首先问及时间分 配上的问题，其次也会向你提出各种奇怪的问题。这一轮中许多题目其实并不难，也无标准答案，重在考察同学们在压力下的逻辑思维。全部通过成为预备成员啦。</p>
+        </div>
+
+      
+        <div class="q-item">
+            <p class="question"><a href="javascript:void(0);" onclick="toggleAnswer(this)">4.考核是怎样的形式？</a></p>
+            <p class="answer">在考核期间每人会拥有一位'长者'带你入门，学习技术与知识，交流经验与想法。完成每周的新人任务后再进行一次考核筛选 后就可以成为Geek组正式成员啦！在考核期必须满足每周30个小时在实验室哦,所以考核期也不可以懈怠哦！</p>
+        </div>
+
+        
+        <div class="q-item">
+            <p class="question"><a href="javascript:void(0);" onclick="toggleAnswer(this)">5.进入Geek组之后都有什么福利呢？</a></p>
+            <p class="answer">一对一的新人指引，每一个成员都有会一个mentor, 带你初入门槛，与你一同成长，组内管理较宽松,在尊重其他人的前提下可以尽情发挥自己的个性。 打破平淡，与同样疯狂的人把疯狂的idea实现，磨砺耐性、培养思维、成就梦想。Lab设备/网络资源充足，闲暇之余也有组织活动。更有许多的故事等你来听~</p>
+        </div>
+
+        
+        <div class="q-item">
+            <p class="question"><a href="javascript:void(0);" onclick="toggleAnswer(this)">6.进入团队会影响我的日常学习吗？</a></p>
+            <p class="answer">你要知道大学是一个可以自由安排自己学习生活的地方。如果你想在上课之余充实自己、激励自己，最好的方法就是和比自己更优秀的人在一起。团队不缺优秀的 人，而我们也期待同样优秀的你，让我们一起前进！小组里也有不少保研, 考研的前辈们, 大部分都能找到一个平衡点, 而且团队的经历对你日后读研, 工作都大有裨益。</p>
+        </div>
+
+      
+        <div class="q-item">
+            <p class="question"><a href="javascript:void(0);" onclick="toggleAnswer(this)">7.老师以及学长学姐们的期望是什么？</a></p>
+            <p class="answer">我们希望你有很强的自学能力，同时关注新事物、新技术，喜欢挑战，逻辑性强，善于和各种文化的人合作.“每个人都可以做自己想做的事情，每个人的方向不一样。 如果你想做产品或有不错的 idea，那么就可以找志同道合的人一起合作。”</p>
+        </div>
+    </div>
+    </div>
+</div>
+
+
+
+
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
