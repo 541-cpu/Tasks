@@ -18,4 +18,4 @@ Tasks内容
 - [页面编后感](https://github.com/541-cpu/Tasks/blob/main/%E7%AC%AC%E4%B8%89%E9%98%B6%E6%AE%B5/%E9%A1%B5%E9%9D%A2%E7%BC%96%E5%90%8E%E6%84%9F.md)
 - [other thoughts](https://github.com/541-cpu/Tasks/blob/main/%E7%AC%AC%E4%B8%89%E9%98%B6%E6%AE%B5/other%20thoughts.md)
 ## 阶段四【承上启下&大显身手】
-- [Geek旧网站复刻地址](https://541-cpu.github.io/gitskills/)
+- [Geek旧网站复刻地址][(https://541-cpu.github.io/gitskills/](https://541-cpu.github.io/learngit/)
